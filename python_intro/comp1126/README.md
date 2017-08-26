@@ -1,8 +1,9 @@
-Python I Labs & Tutorials
+# Python I Labs & Tutorials
 
 Using Python 3
 
 # Table of Contents
+
 [TOC]
 
 
@@ -19,6 +20,7 @@ c. Return the result of this expression.
 This return value is a three digit number where the first digit is the cell phones last digit and the remaining two digits are your age (this year).
 
 *For Example*
+
     >>> mystery()
     
 	Enter last digit of your cell phone number: 2
@@ -53,6 +55,7 @@ leap year must be divisible by 400 (e.g. 1600, 2000, 2400 are leap years and 170
 second number should have no remainder.]
 
 *For Example*
+
     >>> isLeapYear(2016)
     True
     >>> isLeapYear(2000)
@@ -170,6 +173,7 @@ by 7. If the id number is valid return True otherwise return False.
 ## Lab 4
 
 Type these expressions in the python shell.
+
     >>>[] + [1,2]
     >>>[1,2]+[3]
     >>>5/2.0
@@ -179,12 +183,13 @@ Type these expressions in the python shell.
     >>> [x for x in range (0,10) if x % 2 == 0 or x % 5 == 0]
     >>>len([x for x in range (0,10) if x % 2 == 0])
     >>>[(x,y,2010) for x in range (1,8) for y in range(1,13)]
+    
 Include these lists in your code.
-month_days= [('January',[31]),('February',[28,29]),('March',[31]),
-('April',[30]),('May',[31]),('June',[30]),('July',[31]),('August',[31]),
-('September',[30]),('October',[31]),('November',[30]),('December',[31]) ]
-day_names =
-['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+```python
+month_days= [('January',[31]),('February',[28,29]),('March',[31]),('April',[30]),('May',[31]),('June',[30]),('July',[31]),('August',[31]),('September',[30]),('October',[31]),('November',[30]),('December',[31]) ]
+day_names = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+
+```
 #### Problem 1
 Write a function days_in_month which takes a month as an argument and finds the
 corresponding month in the month_days list and returns the number of days associated with that
