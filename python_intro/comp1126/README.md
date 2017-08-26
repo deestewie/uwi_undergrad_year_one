@@ -60,7 +60,7 @@ second number should have no remainder.]
 
 	are given by the quadratic formula
 
-![X equals negative B, plus or minus the square root of B squared minus four A C, all over two A](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Quadratic_formula.svg/640px-Quadratic_formula.svg.png?1444430043902 "Quadratic Formula")
+![X equals negative B, plus or minus the square root of B squared minus four A C, all over two A](https://github.com/ricikay93/uwi_undergrad_year_one/blob/master/python_intro/comp1126/quadratic_eq.PNG)
 
 
 Write a function quadRoots in python which returns the greater of the two roots.
