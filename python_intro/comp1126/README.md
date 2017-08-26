@@ -55,8 +55,10 @@ second number should have no remainder.]
 
 # Lab 2
 1. The roots of a quadratic equation 
-> <i>ax</i><sup>2</sup> + <i>bx</i> + c = 0 
-are given by the quadratic formula
+
+	> <i>ax</i><sup>2</sup> + <i>bx</i> + c = 0 
+
+	are given by the quadratic formula
 
 ![X equals negative B, plus or minus the square root of B squared minus four A C, all over two A](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Quadratic_formula.svg/640px-Quadratic_formula.svg.png?1444430043902 "Quadratic Formula")
 
