@@ -33,7 +33,9 @@ divisible by 3 return the string “Fuzz”, if the number is divisible by 5 ret
 and if the number is divisible by both numbers then return the string “FuzzBiz”. If it is only
 any of the above cases then the program should return “No Fuzz No Biz”. Test your
 program with 30, 27, 20 and 19.
+
 *For Example*
+
 	>>> fuzzbiz(30)
 	'FuzzBiz'
     >>> fuzzbiz(20)
@@ -42,6 +44,7 @@ program with 30, 27, 20 and 19.
     'Fuzz'
     >>> fuzzbiz(19)
     'No Fuzz No Biz'
+    
 #### Question 3
 Write a python program that takes a year as input and returns True if the year is a leap year,
 otherwise it returns False. The input to this function must be an integer.
@@ -201,6 +204,7 @@ month.
 #### Problem 2
 Zeller’s Congruence is an algorithm for finding the day of the week for any date. Zeller’s formula
 is as follows:
+
    > day = (((13*m+3) // 5 + d + y + (y // 4) - (y // 100) + (y // 400)) %7)
     where d = day, y = year and m = month
     
@@ -222,12 +226,16 @@ in the form (day,month,year).
     
 #### Problem 3
 Using list comprehension, define a python function unlucky, which returns all the days in a
-given year which have the date Friday 13th e.g.
+given year which have the date Friday 13th 
+
 *For Example*
+
     >>> unlucky(2010)
     [(13, 8, 2010)]
     >>> unlucky(2015)
 	[(13, 2, 2015), (13, 8, 2015), (13, 11, 2015)]
+    
 [*Hint: you need two ranges one for day starting from 1 and going to 31 and another one for month starting from 1 going to 12. Using these and the year which comes as an argument and use the function day_of_week in the if part of list comprehension to check if a given date is ‘Friday’ and also check if the day is equal to 13.*]
+
 #### Problem 4
 Write a python function mostUnlucky, which lists all the years between 0 and 2016 which have 3 unlucky days. Use function unlucky to get a list of unlucky dates for a particular year and find the length of this list. If the length is greater than 2 then the year is added to another list which is returned as output. Write this function twice (give different names), once using list comprehension and another iteratively (i.e. using for loops).
