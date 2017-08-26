@@ -1,6 +1,8 @@
+[Return to Main Page](https://github.com/ricikay93/uwi_undergrad_year_one/)
+
 Introduction to JAVA
 ========================
-
+Table of Contents
 - [Lab 2](https://github.com/ricikay93/uwi_undergrad_year_one/tree/master/comp1161/lab2)
 - [Lab 3](https://github.com/ricikay93/uwi_undergrad_year_one/tree/master/comp1161/lab3)
 - [Lab 4](https://github.com/ricikay93/uwi_undergrad_year_one/tree/master/comp1161/lab4)
